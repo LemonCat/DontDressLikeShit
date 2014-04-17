@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IMG_20140415_083343" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20140415_083343.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account_login_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-login-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account_logout_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-logout-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="action_redo_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\action-redo-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="action_undo_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\action-undo-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align_center_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\align-center-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\align-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="align_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\align-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aperture_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aperture-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_bottom_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-bottom-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_circle_bottom_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-bottom-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_circle_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_circle_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_circle_top_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-circle-top-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_thick_bottom_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-thick-bottom-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_thick_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-thick-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_thick_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-thick-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_thick_top_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-thick-top-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_top_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-top-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_spectrum_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audio-spectrum-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="badge_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ban_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ban-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bar_chart_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bar-chart-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basket_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basket-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery_empty_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-empty-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery_full_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-full-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beaker_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beaker-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bell_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bell-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bluetooth_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluetooth-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bold_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bold-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolt_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bolt-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="box_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\box-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="briefcase_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\briefcase-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="british_pound_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\british-pound-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="browser_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\browser-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brush_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brush-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bug_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bug-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullhorn_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullhorn-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculator_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camera_slr_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camera-slr-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret_bottom_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-bottom-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caret_top_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caret-top-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chat-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron_bottom_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-bottom-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevron_top_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevron-top-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle_check_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle-check-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle_x_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle-x-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clock_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clock-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloudy_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloudy-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud_download_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud-download-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud_upload_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud-upload-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="code_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\code-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cog_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cog-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="collapse_down_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\collapse-down-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="collapse_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\collapse-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="collapse_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\collapse-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="collapse_up_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\collapse-up-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comment_square_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment-square-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compass_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compass-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contrast_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contrast-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copywriting_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copywriting-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="credit_card_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\credit-card-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crop_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crop-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="data_transfer_download_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data-transfer-download-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="data_transfer_upload_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data-transfer-upload-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dial_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dial-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dollar_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dollar-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="double_quote_sans_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\double-quote-sans-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="double_quote_sans_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\double-quote-sans-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="double_quote_serif_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\double-quote-serif-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="double_quote_serif_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\double-quote-serif-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="droplet_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\droplet-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eject_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eject-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elevator_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elevator-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ellipses_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ellipses-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="envelope_closed_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\envelope-closed-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="envelope_open_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\envelope-open-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euro_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euro-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excerpt_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excerpt-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand_down_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand-down-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand_up_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand-up-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="external_link_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\external-link-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyedropper_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyedropper-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flash_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flash-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fork_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fork-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fullscreen_enter_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fullscreen-enter-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fullscreen_exit_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fullscreen-exit-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graph_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\graph-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grid_four_up_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grid-four-up-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grid_three_up_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grid-three-up-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grid_two_up_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grid-two-up-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hard_drive_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hard-drive-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="headphones_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\headphones-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heart_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inbox_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inbox-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infinity_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\infinity-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italic_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italic-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="justify_center_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\justify-center-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="justify_left_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\justify-left-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="justify_right_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\justify-right-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptop_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightbulb_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lightbulb-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="link_broken_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\link-broken-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="link_intact_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\link-intact-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_rich_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list-rich-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="location_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\location-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lock_locked_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock-locked-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lock_unlocked_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock-unlocked-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loop_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loop-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loop_circular_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loop-circular-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loop_square_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loop-square-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifying_glass_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifying-glass-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_marker_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-marker-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_pause_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-pause-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_play_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-play-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_record_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-record-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_skip_backward_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-skip-backward-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_skip_forward_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-skip-forward-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_step_backward_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-step-backward-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_step_forward_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-step-forward-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_stop_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-stop-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medical_cross_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medical-cross-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="microphone_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microphone-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minus_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minus-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monitor_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monitor-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moon_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moon-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musical_note_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musical-note-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paperclip_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paperclip-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pencil_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pencil-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pie_chart_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pie-chart-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pin_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pin-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play_circle_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play-circle-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power_standby_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\power-standby-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="project_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\project-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pulse_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pulse-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="puzzle_piece_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\puzzle-piece-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question_mark_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\question-mark-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rain-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="random_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\random-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reload_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reload-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resize_both_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resize-both-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resize_height_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resize-height-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resize_width_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resize-width-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rss_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rss-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rss_alt_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rss-alt-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="script_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\script-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="share_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\share-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="share_boxed_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\share-boxed-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shield_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shield-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="signal_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\signal-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="signpost_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\signpost-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sort_ascending_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sort-ascending-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sort_descending_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sort-descending-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spreadsheet_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spreadsheet-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sun_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sun-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tablet_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tablet-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tags_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tags-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tag-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="target_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\target-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\task-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terminal_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\terminal-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumb_down_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb-down-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumb_up_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb-up-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timer_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timer-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transfer_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transfer-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vertical_align_bottom_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vertical-align-bottom-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vertical_align_center_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vertical-align-center-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vertical_align_top_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vertical-align-top-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\video-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volume_high_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volume-high-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volume_low_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volume-low-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volume_off_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volume-off-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wifi_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wifi-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrench_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrench-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yen_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yen-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_in_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoom-in-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_out_8x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoom-out-8x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

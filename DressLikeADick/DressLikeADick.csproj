@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A048AF83-EB81-4005-A6B3-A6CFD062D999}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DressLikeADick</RootNamespace>
+    <AssemblyName>DressLikeADick</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board-games-package-icone-4314-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\board-games-package-icone-4314-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20140415_083343.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-login.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifi-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrench-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yen-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-in-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-out-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-login-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-logout-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action-redo-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action-undo-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-center-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aperture-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-bottom-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-bottom-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-top-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-thick-bottom-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-thick-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-thick-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-thick-top-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-top-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio-spectrum-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ban-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-empty-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-full-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beaker-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluetooth-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolt-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\british-pound-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browser-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bug-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullhorn-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-slr-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-bottom-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caret-top-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-bottom-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-top-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-check-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-x-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-download-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud-upload-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\code-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cog-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collapse-down-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collapse-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collapse-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collapse-up-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comment-square-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compass-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contrast-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copywriting-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crop-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-transfer-download-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-transfer-upload-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dial-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\double-quote-sans-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\double-quote-sans-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\double-quote-serif-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\double-quote-serif-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\droplet-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eject-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elevator-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ellipses-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope-closed-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope-open-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\euro-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excerpt-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand-down-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand-up-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\external-link-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyedropper-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flash-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fork-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen-enter-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen-exit-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globe-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graph-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-four-up-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-three-up-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-two-up-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard-drive-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\headphones-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inbox-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infinity-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\justify-center-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\justify-left-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\justify-right-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptop-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\layers-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightbulb-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link-broken-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link-intact-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-rich-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-locked-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-unlocked-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loop-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loop-circular-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loop-square-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-marker-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-pause-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-play-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-record-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-skip-backward-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-skip-forward-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-step-backward-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-step-forward-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-stop-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-cross-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microphone-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musical-note-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paperclip-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie-chart-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pin-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-circle-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-standby-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulse-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puzzle-piece-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question-mark-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\random-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize-both-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize-height-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize-width-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rss-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rss-alt-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\share-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\share-boxed-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signal-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signpost-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort-ascending-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort-descending-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spreadsheet-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablet-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tags-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\target-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terminal-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb-down-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb-up-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfer-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical-align-bottom-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical-align-center-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical-align-top-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume-high-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume-low-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume-off-8x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-8x.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
