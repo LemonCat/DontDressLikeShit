@@ -111,6 +111,25 @@ namespace DressLikeADick
         }
 
 
+        private frmNewElement myFrmNewElement;
+        private void btnNewElement_Click(object sender, EventArgs e)
+        {
+            
+            myFrmNewElement = new frmNewElement();
+            myFrmNewElement.StartPosition = FormStartPosition.CenterParent;
+            myFrmNewElement.ShowDialog(); //Displays as modal form. 
+
+        }
+
+        private frmNewOutfit myfrmNewOutfit;
+        private void btnNewSet_Click(object sender, EventArgs e)
+        {
+            myfrmNewOutfit = new frmNewOutfit();
+            myfrmNewOutfit.StartPosition = FormStartPosition.CenterParent;
+            myfrmNewOutfit.ShowDialog(); //Displays as modal form. 
+        }
+
+
 
     }
 }

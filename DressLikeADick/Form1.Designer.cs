@@ -69,11 +69,11 @@
             this.tlpRight.ColumnCount = 1;
             this.tlpRight.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpRight.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlpRight.Location = new System.Drawing.Point(3, 16);
+            this.tlpRight.Location = new System.Drawing.Point(3, 18);
             this.tlpRight.Name = "tlpRight";
             this.tlpRight.RowCount = 1;
             this.tlpRight.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tlpRight.Size = new System.Drawing.Size(208, 523);
+            this.tlpRight.Size = new System.Drawing.Size(208, 521);
             this.tlpRight.TabIndex = 0;
             // 
             // grpMainPic
@@ -110,6 +110,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Location = new System.Drawing.Point(3, 11);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(393, 531);
@@ -222,8 +223,9 @@
             this.btnNewElement.Name = "btnNewElement";
             this.btnNewElement.Size = new System.Drawing.Size(265, 65);
             this.btnNewElement.TabIndex = 3;
-            this.btnNewElement.Text = "btnNewElement";
+            this.btnNewElement.Text = "Add  a clothing";
             this.btnNewElement.UseVisualStyleBackColor = true;
+            this.btnNewElement.Click += new System.EventHandler(this.btnNewElement_Click);
             // 
             // btnDelSet
             // 
@@ -233,7 +235,7 @@
             this.btnDelSet.Name = "btnDelSet";
             this.btnDelSet.Size = new System.Drawing.Size(265, 65);
             this.btnDelSet.TabIndex = 2;
-            this.btnDelSet.Text = "btnDelSet";
+            this.btnDelSet.Text = "Delete an outfit";
             this.btnDelSet.UseVisualStyleBackColor = true;
             // 
             // btnDelElement
@@ -244,7 +246,7 @@
             this.btnDelElement.Name = "btnDelElement";
             this.btnDelElement.Size = new System.Drawing.Size(265, 65);
             this.btnDelElement.TabIndex = 1;
-            this.btnDelElement.Text = "btnDelElement";
+            this.btnDelElement.Text = "Delete a clothing";
             this.btnDelElement.UseVisualStyleBackColor = true;
             // 
             // btnNewSet
@@ -255,8 +257,9 @@
             this.btnNewSet.Name = "btnNewSet";
             this.btnNewSet.Size = new System.Drawing.Size(265, 65);
             this.btnNewSet.TabIndex = 0;
-            this.btnNewSet.Text = "btnNewSet";
+            this.btnNewSet.Text = "Add an outfit";
             this.btnNewSet.UseVisualStyleBackColor = true;
+            this.btnNewSet.Click += new System.EventHandler(this.btnNewSet_Click);
             // 
             // Form1
             // 
@@ -267,6 +270,7 @@
             this.Controls.Add(this.grpDate);
             this.Controls.Add(this.grpMainPic);
             this.Controls.Add(this.grpLeft);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
