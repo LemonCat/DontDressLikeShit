@@ -110,5 +110,7 @@ namespace DressLikeADick
             /*Ajoute en mémoire dans la liste des elements non dispo. */
         }
 
+
+
     }
 }

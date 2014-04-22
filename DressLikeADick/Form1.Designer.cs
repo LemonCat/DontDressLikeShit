@@ -89,8 +89,8 @@
             // 
             // btnNo
             // 
-            this.btnNo.Image = global::DressLikeADick.Properties.Resources.thumb_down_8x;
-            this.btnNo.Location = new System.Drawing.Point(0, 464);
+            this.btnNo.Image = global::DressLikeADick.Properties.Resources.media_skip_forward_8x;
+            this.btnNo.Location = new System.Drawing.Point(3, 464);
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(76, 78);
             this.btnNo.TabIndex = 1;
@@ -101,7 +101,7 @@
             // 
             this.btnYes.BackColor = System.Drawing.SystemColors.Control;
             this.btnYes.Image = global::DressLikeADick.Properties.Resources.thumb_up_8x;
-            this.btnYes.Location = new System.Drawing.Point(323, 464);
+            this.btnYes.Location = new System.Drawing.Point(320, 464);
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(76, 78);
             this.btnYes.TabIndex = 0;
@@ -110,7 +110,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DressLikeADick.Properties.Resources.IMG_20140415_083343;
             this.pictureBox1.Location = new System.Drawing.Point(3, 11);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(393, 531);
