@@ -65,22 +65,26 @@ namespace DressLikeADick
 
 
                 // 
-                // comboBoxCaté
+                // comboBoxCat
                 // 
                 comboBoxCat.FormattingEnabled = true;
                 comboBoxCat.Location = new System.Drawing.Point(12, 27 * nbLines + 5 * (nbLines - 1));
                 comboBoxCat.Name = "comboBoxCat" + nbLines;
                 comboBoxCat.Size = new System.Drawing.Size(166, 21);
+                comboBoxCat.DropDownStyle = ComboBoxStyle.DropDownList;
                 comboBoxCat.TabIndex = 1;
 
+                //add an event handler when changing cat --> refresh list cloths. 
+                comboBoxCat.SelectedIndexChanged += new EventHandler(catChangedRefresh);
 
                 // 
-                // comboBoxPosition
+                // comboBoxCloth
                 // 
                 comboBoxCloth.FormattingEnabled = true;
                 comboBoxCloth.Location = new System.Drawing.Point(184, 27 * nbLines + 5 * (nbLines - 1));
                 comboBoxCloth.Name = "comboBoxCloth" + nbLines;
                 comboBoxCloth.Size = new System.Drawing.Size(166, 21);
+                comboBoxCloth.DropDownStyle = ComboBoxStyle.DropDownList;
                 comboBoxCloth.TabIndex = 2;
 
 
@@ -91,6 +95,7 @@ namespace DressLikeADick
                 comboBox1.Location = new System.Drawing.Point(356, 27 * nbLines + 5 * (nbLines - 1));
                 comboBox1.Name = "comboBoxPosition" + nbLines;
                 comboBox1.Size = new System.Drawing.Size(121, 21);
+                comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
                 comboBox1.TabIndex = 2;
 
 
@@ -121,9 +126,19 @@ namespace DressLikeADick
 
         }
 
+        private void catChangedRefresh(object sender, EventArgs e)
+        {
+            /*
+             * Refresh the cbo clo depending of the index choosen in cat. 
+             */
+
+
+        }
+
+
+
         private void refreshAllCbo()
         {
-            
 
             /* Loop through This.Controls and if is TypeOf(Cbo) then 
              * delete all item and populate up to nbLines. 
@@ -133,45 +148,58 @@ namespace DressLikeADick
             {
                 if (C is ComboBox)
                 {
+
+                    String mystr = ((ComboBox)C).Name;
+
                     ((ComboBox)C).Items.Clear();
-
-                    int i = 0;
-                    while (i<nbLines )
+                    if (mystr.Contains("comboBoxPosition"))
                     {
-                        ((ComboBox)C).Items.Add(i+1);
-
-                        String mystr = ((ComboBox)C).Name;
-
-                        //Set default value base on cbo name. 
-                        if (((ComboBox)C).Name == "comboBoxPosition10")
+                        int i = 0;
+                        while (i < nbLines)
                         {
-                            ((ComboBox)C).Text ="10";
-                        }
-                        else if (mystr.Contains("comboBoxPosition"))
-                        {
-                                /*
-                                * Gérer ici le populate des autres cbo en gardant en mémoire les valeurs choisies. 
-                                * On pourra ne populate que la première et juste recopier les items ensuite. 
-                                */
-                        }
-                        else if (mystr.Contains("comboBoxPosition"))
-                        {
+                            ((ComboBox)C).Items.Add(i + 1);
 
-                        }
 
-                        
-                        
-                        else if ( mystr.Contains("comboBoxPosition"))
-                        {
-                            ((ComboBox)C).Text = mystr.Substring(mystr.Length - 1);
+
+                             //Set default value base on cbo name. 
+                            if (((ComboBox)C).Name == "comboBoxPosition10")
+                            {
+                                ((ComboBox)C).Text = "10";
+                            }
+                            else if (mystr.Contains("comboBoxPosition"))
+                            {
+                                ((ComboBox)C).Text = mystr.Substring(mystr.Length - 1);
+                            }
+
+                            i++;
                         }
 
-                        i++;
+
+                    }else if (mystr.Contains("comboBoxCat"))
+                    {
+                        /*
+                        * Gérer ici le populate des autres cbo en gardant en mémoire les valeurs choisies. 
+                        * On pourra ne populate que la première et juste recopier les items ensuite. 
+                        */
+
+                        //Si nécessaire
+                        //Store selected index
+                        //Restore
+
+
+                    }else if (mystr.Contains("comboBoxCloth"))
+                    {
+                        //Si nécessaire
+                        //Store selected index
+                        //Restore
                     }
+
                 }
+
             }
 
         }
+
 
 
         void btnAddALine(object sender, EventArgs e)
@@ -206,6 +234,7 @@ namespace DressLikeADick
 
 
         }
+
 
     }
 }
