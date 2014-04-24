@@ -44,9 +44,10 @@ namespace DressLikeADick
                 //Add eventHandler on button to addALine. 
 
                 Button button1 = new System.Windows.Forms.Button();
-                TextBox textBox1 = new System.Windows.Forms.TextBox();
+
                 ComboBox comboBox1 = new System.Windows.Forms.ComboBox();
-                TextBox textBox2 = new System.Windows.Forms.TextBox();
+                ComboBox comboBoxCat = new System.Windows.Forms.ComboBox();
+                ComboBox comboBoxCloth = new System.Windows.Forms.ComboBox();
 
                 this.SuspendLayout();
                 // 
@@ -62,38 +63,46 @@ namespace DressLikeADick
 
                 button1.Click += new EventHandler(btnAddALine);
 
+
                 // 
-                // textBox1
+                // comboBoxCaté
                 // 
-                textBox1.Location = new System.Drawing.Point(12, 27 * nbLines + 5 * (nbLines - 1));
-                textBox1.Name = "textBoxClo" + nbLines;
-                textBox1.Size = new System.Drawing.Size(166, 22);
-                textBox1.TabIndex = 1;
+                comboBoxCat.FormattingEnabled = true;
+                comboBoxCat.Location = new System.Drawing.Point(12, 27 * nbLines + 5 * (nbLines - 1));
+                comboBoxCat.Name = "comboBoxCat" + nbLines;
+                comboBoxCat.Size = new System.Drawing.Size(166, 21);
+                comboBoxCat.TabIndex = 1;
+
+
                 // 
-                // comboBox1
+                // comboBoxPosition
+                // 
+                comboBoxCloth.FormattingEnabled = true;
+                comboBoxCloth.Location = new System.Drawing.Point(184, 27 * nbLines + 5 * (nbLines - 1));
+                comboBoxCloth.Name = "comboBoxCloth" + nbLines;
+                comboBoxCloth.Size = new System.Drawing.Size(166, 21);
+                comboBoxCloth.TabIndex = 2;
+
+
+                // 
+                // comboBoxPosition
                 // 
                 comboBox1.FormattingEnabled = true;
                 comboBox1.Location = new System.Drawing.Point(356, 27 * nbLines + 5 * (nbLines - 1));
-                comboBox1.Name = "comboBox" + nbLines;
+                comboBox1.Name = "comboBoxPosition" + nbLines;
                 comboBox1.Size = new System.Drawing.Size(121, 21);
                 comboBox1.TabIndex = 2;
 
-                // 
-                // textBox2
-                // 
-                textBox2.Location = new System.Drawing.Point(184, 27 * nbLines + 5 * (nbLines - 1));
-                textBox2.Name = "textBoxCat" + nbLines;
-                textBox2.Size = new System.Drawing.Size(166, 22);
-                textBox2.TabIndex = 4;
+
                 // 
                 // frmNewOutfit
                 // 
                 AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
                 AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
                 //ClientSize = new System.Drawing.Size(755, 425);
-                this.Controls.Add(textBox2);
+                this.Controls.Add(comboBoxCat);
                 this.Controls.Add(comboBox1);
-                this.Controls.Add(textBox1);
+                this.Controls.Add(comboBoxCloth);
                 this.Controls.Add(button1);
                 this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 this.Name = "frmNewOutfit";
@@ -131,16 +140,32 @@ namespace DressLikeADick
                     {
                         ((ComboBox)C).Items.Add(i+1);
 
-                        //Set default value base on cbo name. 
+                        String mystr = ((ComboBox)C).Name;
 
-                        if (((ComboBox)C).Name == "comboBox10")
+                        //Set default value base on cbo name. 
+                        if (((ComboBox)C).Name == "comboBoxPosition10")
                         {
                             ((ComboBox)C).Text ="10";
-                        }else{
-                            String mystr = ((ComboBox)C).Name;
+                        }
+                        else if (mystr.Contains("comboBoxPosition"))
+                        {
+                                /*
+                                * Gérer ici le populate des autres cbo en gardant en mémoire les valeurs choisies. 
+                                * On pourra ne populate que la première et juste recopier les items ensuite. 
+                                */
+                        }
+                        else if (mystr.Contains("comboBoxPosition"))
+                        {
+
+                        }
+
+                        
+                        
+                        else if ( mystr.Contains("comboBoxPosition"))
+                        {
                             ((ComboBox)C).Text = mystr.Substring(mystr.Length - 1);
                         }
-                        
+
                         i++;
                     }
                 }

@@ -223,7 +223,7 @@
             this.btnNewElement.Name = "btnNewElement";
             this.btnNewElement.Size = new System.Drawing.Size(265, 65);
             this.btnNewElement.TabIndex = 3;
-            this.btnNewElement.Text = "Add  a clothing";
+            this.btnNewElement.Text = "Add  a piece of clothing";
             this.btnNewElement.UseVisualStyleBackColor = true;
             this.btnNewElement.Click += new System.EventHandler(this.btnNewElement_Click);
             // 
@@ -246,7 +246,7 @@
             this.btnDelElement.Name = "btnDelElement";
             this.btnDelElement.Size = new System.Drawing.Size(265, 65);
             this.btnDelElement.TabIndex = 1;
-            this.btnDelElement.Text = "Delete a clothing";
+            this.btnDelElement.Text = "Del. a piece of clothing";
             this.btnDelElement.UseVisualStyleBackColor = true;
             // 
             // btnNewSet
@@ -271,6 +271,8 @@
             this.Controls.Add(this.grpMainPic);
             this.Controls.Add(this.grpLeft);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
