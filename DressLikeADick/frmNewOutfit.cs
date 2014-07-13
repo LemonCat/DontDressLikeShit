@@ -220,7 +220,17 @@ namespace DressLikeADick
              * Load pic in pictureBox
             */
 
-            openFileDialog1.ShowDialog();
+
+            openFileDialog1.Title = "Open Image";
+            openFileDialog1.Filter = "Image Files (*.bmp, *.jpg)|*.bmp;*.jpg";
+
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                //curLoadedImg = openFileDialog1.FileName;
+                pictureBox1.Image = new Bitmap(openFileDialog1.FileName);
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
         }
 
         private void btnSaveNewOutfit_Click(object sender, EventArgs e)
