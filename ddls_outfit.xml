@@ -1,0 +1,10 @@
+<outfits>
+	<outfit id=1 name="Le plus beau" imgLink="">
+		<clothId>1</clothId>
+		<clothId>2</clothId>
+		<clothId>3</clothId>
+		<clothId>4</clothId>
+		<clothId>5</clothId>
+		<clothId>6</clothId>
+	</outfit>
+</outfits>

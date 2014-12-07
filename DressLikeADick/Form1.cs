@@ -101,6 +101,7 @@ namespace DressLikeADick
 
         private void btnDbg_Click(object sender, EventArgs e)
         {
+            //ce bouton fait du fkg debug. 
             redrawLeft(6);
         }
 

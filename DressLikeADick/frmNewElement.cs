@@ -46,7 +46,7 @@ namespace DressLikeADick
         {
             clsDb my_clsDb = new clsDb();
 
-            Console.WriteLine(my_clsDb.getLastPieceID());
+            //Console.WriteLine(my_clsDb.getLastPieceID());
 
             /*Save outfit : 
              *  Create new clothing in db
